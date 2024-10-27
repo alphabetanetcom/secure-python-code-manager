@@ -726,6 +726,6 @@ installing the packages.
 If you experience issues or have questions not covered in this
 documentation, please contact the Alpha Beta Network Research Team.
 
--   **Website**: https://alphabetanet.com \| https://αβ.net
+-   **Website**: <a href="https://alphabetanet.com/" target="_blank">https://alphabetanet.com/</a> \| <a href="https://αβ.net/" target="_blank">https://αβ.net/</a>
 
--   **Official Telegram Channel**: https://t.me/alphabetanetcom
+-   **Official Telegram Channel**: <a href="https://t.me/alphabetanetcom" target="_blank">https://t.me/alphabetanetcom</a>

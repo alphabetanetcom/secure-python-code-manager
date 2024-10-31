@@ -131,8 +131,7 @@ including their status, usage data, and associated limits.
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l LICENSE_KEYS
-\[OPTIONS\]
+python secure_python_code_manager.py --license-info -l LICENSE_KEYS [OPTIONS]
 ```
 **Description of Parameters**
 
@@ -156,34 +155,32 @@ python secure_python_code_manager.py \--license-info -l LICENSE_KEYS
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l 1234567890
+python secure_python_code_manager.py --license-info -l 1234567890
 ```
 **Example 2:** Retrieve information for multiple licenses.
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l
+python secure_python_code_manager.py --license-info -l
 1234567890,0987654321
 ```
 **Example 3:** Retrieve information for all licenses.
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l all
+python secure_python_code_manager.py --license-info -l all
 ```
 **Example 4:** Extend the expiration date of a license by 24 hours.
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l 1234567890
-\--extend
+python secure_python_code_manager.py --license-info -l 1234567890 --extend
 ```
 **Example 5:** Set the maximum number of hardware IDs for a license.
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l 1234567890
-\--set_hwids 5
+python secure_python_code_manager.py --license-info -l 1234567890 --set_hwids 5
 ```
 **Expected Output**
 
@@ -290,7 +287,7 @@ uploaded scripts and associated licenses.
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage \[OPTIONS\]
+python secure_python_code_manager.py --service-usage [OPTIONS]
 ```
 **Description of Parameters**
 
@@ -313,28 +310,26 @@ python secure_python_code_manager.py \--service-usage \[OPTIONS\]
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage
+python secure_python_code_manager.py --service-usage
 ```
 **Example 2:** Remove specific licenses.
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage \--license-removal
+python secure_python_code_manager.py --service-usage --license-removal
 1234567890,0987654321
 ```
 **Example 3:** Remove all licenses.
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage \--license-removal
-all
+python secure_python_code_manager.py --service-usage --license-removal all
 ```
 **Example 4:** Remove specific code entries.
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage \--code-removal
-1122334455,5566778899
+python secure_python_code_manager.py --service-usage --code-removal 1122334455,5566778899
 ```
 **Expected Output**
 
@@ -407,7 +402,7 @@ create a new license for it.
 
 ```bash
 
-python secure_python_code_manager.py \--upload -f FILE_PATH
+python secure_python_code_manager.py --upload -f FILE_PATH
 ```
 **Description of Parameters**
 
@@ -422,7 +417,7 @@ python secure_python_code_manager.py \--upload -f FILE_PATH
 
 ```bash
 
-python secure_python_code_manager.py \--upload -f my_script.py
+python secure_python_code_manager.py --upload -f my_script.py
 ```
 The script must be a valid .py file.
 
@@ -464,8 +459,7 @@ specific license.
 
 ```bash
 
-python secure_python_code_manager.py \--update -f FILE_PATH -l
-LICENSE_KEY
+python secure_python_code_manager.py --update -f FILE_PATH -l LICENSE_KEY
 ```
 **Description of Parameters**
 
@@ -483,8 +477,7 @@ LICENSE_KEY
 
 ```bash
 
-python secure_python_code_manager.py \--update -f my_script.py -l
-1234567890
+python secure_python_code_manager.py --update -f my_script.py -l 1234567890
 ```
 **Expected Output**
 
@@ -522,15 +515,13 @@ date of specified licenses by 24 hours.
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l LICENSE_KEYS
-\--extend
+python secure_python_code_manager.py --license-info -l LICENSE_KEYS --extend
 ```
 **Example**
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l 1234567890
-\--extend
+python secure_python_code_manager.py --license-info -l 1234567890 --extend
 ```
 **Notes**
 
@@ -549,15 +540,13 @@ number of hardware IDs for specified licenses.
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l LICENSE_KEYS
-\--set_hwids NUMBER
+python secure_python_code_manager.py --license-info -l LICENSE_KEYS --set_hwids NUMBER
 ```
 **Example**
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l 1234567890
-\--set_hwids 5
+python secure_python_code_manager.py --license-info -l 1234567890 --set_hwids 5
 ```
 **Notes**
 
@@ -576,8 +565,7 @@ entries.
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage
-\[\--license-removal LICENSE_KEYS\] \[\--code-removal CONTENT_HASHES\]
+python secure_python_code_manager.py --service-usage [--license-removal LICENSE_KEYS] [--code-removal CONTENT_HASHES]
 ```
 **Examples**
 
@@ -585,22 +573,19 @@ python secure_python_code_manager.py \--service-usage
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage \--license-removal
-1234567890,0987654321
+python secure_python_code_manager.py --service-usage --license-removal 1234567890,0987654321
 ```
 **Delete all licenses:**
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage \--license-removal
-all
+python secure_python_code_manager.py --service-usage --license-removal all
 ```
 **Delete specific code entries:**
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage \--code-removal
-1122334455,5566778899
+python secure_python_code_manager.py --service-usage --code-removal 1122334455,5566778899
 ```
 **Notes**
 

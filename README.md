@@ -156,8 +156,7 @@ Upload your Python script to the cloud and create a new license for it.
 
 ```bash
 
-python secure_python_code_manager.py \--upload -f
-/path/to/your_script.py
+python secure_python_code_manager.py \--upload -f /path/to/your_script.py
 ```
 **Parameters:**
 

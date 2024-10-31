@@ -156,7 +156,7 @@ Upload your Python script to the cloud and create a new license for it.
 
 ```bash
 
-python secure_python_code_manager.py \--upload -f /path/to/your_script.py
+python secure_python_code_manager.py --upload -f /path/to/your_script.py
 ```
 **Parameters:**
 
@@ -169,7 +169,7 @@ python secure_python_code_manager.py \--upload -f /path/to/your_script.py
 
 ```bash
 
-python secure_python_code_manager.py \--upload -f my_script.py
+python secure_python_code_manager.py --upload -f my_script.py
 ```
 Upon successful upload, the script will provide a license key and save
 the protected code loader.
@@ -182,7 +182,7 @@ Update a previously uploaded script associated with a specific license.
 
 ```bash
 
-python secure_python_code_manager.py \--update -f /path/to/your_script.py -l LICENSE_KEY
+python secure_python_code_manager.py --update -f /path/to/your_script.py -l LICENSE_KEY
 ```
 **Parameters:**
 
@@ -198,7 +198,7 @@ python secure_python_code_manager.py \--update -f /path/to/your_script.py -l LIC
 
 ```bash
 
-python secure_python_code_manager.py \--update -f my_script.py -l 1234567890
+python secure_python_code_manager.py --update -f my_script.py -l 1234567890
 ```
 **Retrieving License Information**
 
@@ -209,7 +209,7 @@ usage data.
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l LICENSE_KEYS \[OPTIONS\]
+python secure_python_code_manager.py --license-info -l LICENSE_KEYS [OPTIONS]
 ```
 **Parameters:**
 
@@ -232,13 +232,13 @@ Retrieve information for a specific license:
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l 1234567890
+python secure_python_code_manager.py --license-info -l 1234567890
 ```
 Extend the expiration date:
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l 1234567890
+python secure_python_code_manager.py --license-info -l 1234567890
 \--extend
 ```
 **Retrieving Service Usage Information**
@@ -250,7 +250,7 @@ scripts and associated licenses.
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage
+python secure_python_code_manager.py --service-usage
 ```
 **Parameters:**
 
@@ -261,7 +261,7 @@ python secure_python_code_manager.py \--service-usage
 
 ```bash
 
-python secure_python_code_manager.py \--service-usage
+python secure_python_code_manager.py --service-usage
 ```
 **Detailed Documentation**
 

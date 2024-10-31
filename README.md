@@ -1,4 +1,4 @@
-**Secure Python Code Manager**
+**Secure Python Code Manager** 
 
 **Secure Python Code Manager** is a command-line tool designed to help
 developers **securely share and protect their Python code** using

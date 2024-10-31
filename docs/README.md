@@ -1,4 +1,4 @@
-**Secure Python Code Manager Script Documentation**
+**Secure Python Code Manager Script Documentation** 
 
 *Version: 1.5\
 Author: Alpha Beta Network Research Team\

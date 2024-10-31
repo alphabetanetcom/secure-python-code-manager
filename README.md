@@ -136,8 +136,7 @@ Clone the repository and navigate to the project directory:
 
 ```bash
 
-git clone
-https://github.com/alphabetanetcom/secure-python-code-manager.git
+git clone https://github.com/alphabetanetcom/secure-python-code-manager.git
 
 cd secure-python-code-manager
 ```
@@ -184,8 +183,7 @@ Update a previously uploaded script associated with a specific license.
 
 ```bash
 
-python secure_python_code_manager.py \--update -f
-/path/to/your_script.py -l LICENSE_KEY
+python secure_python_code_manager.py \--update -f /path/to/your_script.py -l LICENSE_KEY
 ```
 **Parameters:**
 
@@ -201,8 +199,7 @@ python secure_python_code_manager.py \--update -f
 
 ```bash
 
-python secure_python_code_manager.py \--update -f my_script.py -l
-1234567890
+python secure_python_code_manager.py \--update -f my_script.py -l 1234567890
 ```
 **Retrieving License Information**
 
@@ -213,8 +210,7 @@ usage data.
 
 ```bash
 
-python secure_python_code_manager.py \--license-info -l LICENSE_KEYS
-\[OPTIONS\]
+python secure_python_code_manager.py \--license-info -l LICENSE_KEYS \[OPTIONS\]
 ```
 **Parameters:**
 

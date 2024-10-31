@@ -238,8 +238,7 @@ Extend the expiration date:
 
 ```bash
 
-python secure_python_code_manager.py --license-info -l 1234567890
-\--extend
+python secure_python_code_manager.py --license-info -l 1234567890 --extend
 ```
 **Retrieving Service Usage Information**
 

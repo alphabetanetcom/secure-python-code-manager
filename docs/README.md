@@ -161,8 +161,7 @@ python secure_python_code_manager.py --license-info -l 1234567890
 
 ```bash
 
-python secure_python_code_manager.py --license-info -l
-1234567890,0987654321
+python secure_python_code_manager.py --license-info -l 1234567890,0987654321
 ```
 **Example 3:** Retrieve information for all licenses.
 
@@ -187,7 +186,7 @@ python secure_python_code_manager.py --license-info -l 1234567890 --set_hwids 5
 The script will display detailed information about the specified
 licenses:
 
-javascript
+```javascript
 
 License Information for License Key: 1234567890
 
@@ -258,6 +257,8 @@ Total IPs: 1
 Total hardware IDs: 1
 
 License information has been saved to license_cloud_info.log.
+
+```
 
 If the \--extend or \--set_hwids options are used, the output will also
 reflect the changes made.
@@ -335,7 +336,7 @@ python secure_python_code_manager.py --service-usage --code-removal 1122334455,5
 
 The script will display your service usage information:
 
-javascript
+```javascript
 
 Service Usage Information:
 
@@ -376,6 +377,7 @@ Associated License Keys:
 License #1: 0987654321
 
 Service usage information has been saved to license_cloud_info.log.
+```
 
 If removal options are used, the script will confirm the deletions.
 
@@ -425,12 +427,13 @@ The script must be a valid .py file.
 
 The script will confirm the successful upload:
 
-javascript
+```javascript
 
 Upload successful. License key: 1234567890
 
 License script saved as:
 my_script_ExpDate2024-01-01_00-00-00_PSN1234567890.py
+```
 
 The uploaded script, now containing licensing code, will be saved with a
 new filename including the expiration date and product serial number.
@@ -483,10 +486,10 @@ python secure_python_code_manager.py --update -f my_script.py -l 1234567890
 
 The script will confirm the successful update:
 
-javascript
+```javascript
 
 Update successful.
-
+```
 **Possible Errors and Their Solutions**
 
 -   **Error:** *You must specify both a file with -f or \--file and a
@@ -621,7 +624,7 @@ Each entry starts with a timestamp and includes the operation
 performed.\
 **Example Entry for License Information Retrieval:**
 
-javascript
+```javascript
 
 2023-12-01 12:00:00.
 
@@ -637,9 +640,11 @@ Is active: Yes
 
 \...
 
+```
+
 **Example Entry for Service Usage Information:**
 
-javascript
+```javascript
 
 2023-12-01 12:05:00.
 
@@ -651,9 +656,11 @@ Max Total Uploads (Licenses): 5
 
 \...
 
+```
+
 **Example Entry for Upload Confirmation:**
 
-javascript
+```javascript
 
 2023-12-01 12:10:00.
 
@@ -668,6 +675,8 @@ Product Serial Number (PSN): 1234567890
 
 !!! Do not share this license key with anyone because it allows you to
 update the uploaded code.
+
+```
 
 **Notes:**
 

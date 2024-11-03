@@ -1,5 +1,7 @@
 **Secure Python Code Manager**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14029910.svg)](https://doi.org/10.5281/zenodo.14029910)
+
 **Secure Python Code Manager** is a command-line tool designed to help
 developers **securely share and protect their Python code** using
 the Alpha Beta Network cloud platform. It offers advanced **Python code

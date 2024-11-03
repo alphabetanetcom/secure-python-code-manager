@@ -1,6 +1,14 @@
 **Secure Python Code Manager**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14030325.svg)](https://doi.org/10.5281/zenodo.14030325)
+[![License](https://img.shields.io/badge/license-Custom-blue.svg)](LICENSE.md)
+[![Python Version](https://img.shields.io/badge/python-3.5%2B-blue)](https://www.python.org/downloads/)
+[![Code Protection](https://img.shields.io/badge/code-protection-green.svg)](README.md#key-features)
+[![Secure Sharing](https://img.shields.io/badge/secure-sharing-green.svg)](README.md#key-features)
+[![Encryption](https://img.shields.io/badge/encryption-enabled-brightgreen.svg)](README.md#key-features)
+[![Python Security](https://img.shields.io/badge/python-security-blue.svg)](README.md#security-and-best-practices)
+[![Code Obfuscation](https://img.shields.io/badge/code-obfuscation-blue.svg)](README.md#key-features)
+[![Secure Transfer](https://img.shields.io/badge/secure-transfer-blue.svg)](README.md#how-it-works)
 
 **Secure Python Code Manager** is a command-line tool designed to help
 developers **securely share and protect their Python code** using

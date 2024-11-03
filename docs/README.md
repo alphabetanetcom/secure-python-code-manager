@@ -9,52 +9,31 @@ Reserved.*
 
 ------------------------------------------------------------------------
 
-**Table of Contents**
+## Table of Contents
 
--   1\. Introduction
+- [1. Introduction](#1-introduction)
+- [2. Installation](#2-installation)
+- [3. Main Functions of the Script](#3-main-functions-of-the-script)
+  - [3.1 Getting License Information (--license-info)](#31-getting-license-information---license-info)
+  - [3.2 Getting Service Usage Information (--service-usage)](#32-getting-service-usage-information---service-usage)
+  - [3.3 Uploading Code and Creating a License (--upload)](#33-uploading-code-and-creating-a-license---upload)
+  - [3.4 Updating Previously Uploaded Code (--update)](#34-updating-previously-uploaded-code---update)
+- [4. Detailed Description of Each Function](#4-detailed-description-of-each-function)
+  - [4.1 Getting License Information (--license-info)](#41-getting-license-information---license-info)
+  - [4.2 Getting Service Usage Information (--service-usage)](#42-getting-service-usage-information---service-usage)
+  - [4.3 Uploading Code and Creating a License (--upload)](#43-uploading-code-and-creating-a-license---upload)
+  - [4.4 Updating Previously Uploaded Code (--update)](#44-updating-previously-uploaded-code---update)
+- [5. Additional Features](#5-additional-features)
+  - [5.1 Extending the License Expiration Date (--extend)](#51-extending-the-license-expiration-date---extend)
+  - [5.2 Setting the Maximum Number of Hardware IDs (--set_hwids)](#52-setting-the-maximum-number-of-hardware-ids---set_hwids)
+  - [5.3 Deleting Licenses and Code](#53-deleting-licenses-and-code)
+- [6. Working with Logs](#6-working-with-logs)
+  - [6.1 Description of the license_cloud_info.log File](#61-description-of-the-license_cloud_infolog-file)
+  - [6.2 How to Interpret Records in the Log](#62-how-to-interpret-records-in-the-log)
+- [Appendix A: Installation of Required Packages](#appendix-a-installation-of-required-packages)
+- [Appendix B: Contact Information](#appendix-b-contact-information)
 
--   2\. Installation
-
--   3\. Main Functions of the Script
-
-    -   3.1 Getting License Information (\--license-info)
-
-    -   3.2 Getting Service Usage Information (\--service-usage)
-
-    -   3.3 Uploading Code and Creating a License (\--upload)
-
-    -   3.4 Updating Previously Uploaded Code (\--update)
-
--   4\. Detailed Description of Each Function
-
-    -   4.1 Getting License Information (\--license-info)
-
-    -   4.2 Getting Service Usage Information (\--service-usage)
-
-    -   4.3 Uploading Code and Creating a License (\--upload)
-
-    -   4.4 Updating Previously Uploaded Code (\--update)
-
--   5\. Additional Features
-
-    -   5.1 Extending the License Expiration Date (\--extend)
-
-    -   5.2 Setting the Maximum Number of Hardware IDs (\--set_hwids)
-
-    -   5.3 Deleting Licenses and Code
-        (\--license-removal, \--code-removal)
-
--   6\. Working with Logs
-
-    -   6.1 Description of the license_cloud_info.log File
-
-    -   6.2 How to Interpret Records in the Log
-
--   Appendix A: Installation of Required Packages
-
--   Appendix B: Contact Information
-
-**1. Introduction**
+# 1. Introduction
 
 The **Secure Python Code Manager Script** is a command-line tool
 designed to manage your code licenses with the Alpha Beta Network cloud
@@ -79,7 +58,7 @@ property and want to distribute their Python scripts securely. By using
 cloud-based licensing, you ensure that only authorized users can access
 and execute your code.
 
-**2. Installation**
+# 2. Installation
 
 Before using the Secure Python Code Manager Script, ensure that you
 have **Python 3** installed on your system.
@@ -107,24 +86,24 @@ installing the packages.
 
 Download the secure_python_code_manager.py script to your local machine.
 
-**3. Main Functions of the Script**
+# 3. Main Functions of the Script
 
 The Secure Python Code Manager Script provides the following main
 functionalities:
 
--   **3.1 Getting License Information (\--license-info)**
+## 3.1 Getting License Information (\--license-info)
 
--   **3.2 Getting Service Usage Information (\--service-usage)**
+## 3.2 Getting Service Usage Information (\--service-usage)
 
--   **3.3 Uploading Code and Creating a License (\--upload)**
+## 3.3 Uploading Code and Creating a License (\--upload)
 
--   **3.4 Updating Previously Uploaded Code (\--update)**
+## 3.4 Updating Previously Uploaded Code (\--update)
 
 ------------------------------------------------------------------------
 
-**4. Detailed Description of Each Function**
+# 4. Detailed Description of Each Function
 
-**4.1 Getting License Information (\--license-info)**
+## 4.1 Getting License Information (\--license-info)
 
 This function retrieves detailed information about your licenses,
 including their status, usage data, and associated limits.
@@ -281,7 +260,7 @@ reflect the changes made.
 
 ------------------------------------------------------------------------
 
-**4.2 Getting Service Usage Information (\--service-usage)**
+## 4.2 Getting Service Usage Information (\--service-usage)
 
 This function retrieves information about your service usage, including
 uploaded scripts and associated licenses.
@@ -397,7 +376,7 @@ If removal options are used, the script will confirm the deletions.
 
 ------------------------------------------------------------------------
 
-**4.3 Uploading Code and Creating a License (\--upload)**
+## 4.3 Uploading Code and Creating a License (\--upload)
 
 This function allows you to upload your Python script to the cloud and
 create a new license for it.
@@ -455,7 +434,7 @@ new filename including the expiration date and product serial number.
 -   **Error:** *Failed to receive license information from the server.\
     ***Solution:** Check server connectivity and try again later.
 
-**4.4 Updating Previously Uploaded Code (\--update)**
+## 4.4 Updating Previously Uploaded Code (\--update)
 
 This function updates a previously uploaded script associated with a
 specific license.
@@ -509,9 +488,9 @@ Update successful.
 
 ------------------------------------------------------------------------
 
-**5. Additional Features**
+# 5. Additional Features
 
-**5.1 Extending the License Expiration Date (\--extend)**
+## 5.1 Extending the License Expiration Date (\--extend)
 
 Use the \--extend option with \--license-info to extend the expiration
 date of specified licenses by 24 hours.
@@ -536,7 +515,7 @@ python secure_python_code_manager.py --license-info -l 1234567890 --extend
 
 ------------------------------------------------------------------------
 
-**5.2 Setting the Maximum Number of Hardware IDs (\--set_hwids)**
+## 5.2 Setting the Maximum Number of Hardware IDs (\--set_hwids)
 
 Use the \--set_hwids option with \--license-info to set the maximum
 number of hardware IDs for specified licenses.
@@ -561,7 +540,9 @@ python secure_python_code_manager.py --license-info -l 1234567890 --set_hwids 5
 
 ------------------------------------------------------------------------
 
-**5.3 Deleting Licenses and Code (\--license-removal, \--code-removal)**
+## 5.3 Deleting Licenses and Code
+
+Deleting Licenses and Code (\--license-removal, \--code-removal)
 
 Use these options with \--service-usage to remove licenses or code
 entries.
@@ -600,13 +581,13 @@ python secure_python_code_manager.py --service-usage --code-removal 1122334455,5
 
 ------------------------------------------------------------------------
 
-**6. Working with Logs**
+# 6. Working with Logs
 
 The script saves operation details to a log file
 named license_cloud_info.log, which can be used for auditing and
 troubleshooting.
 
-**6.1 Description of the license_cloud_info.log File**
+## 6.1 Description of the license_cloud_info.log File
 
 The license_cloud_info.log file records:
 
@@ -620,7 +601,7 @@ The license_cloud_info.log file records:
 
 -   **Any error messages encountered.**
 
-**6.2 How to Interpret Records in the Log**
+## 6.2 How to Interpret Records in the Log
 
 Each entry starts with a timestamp and includes the operation
 performed.\
@@ -690,7 +671,7 @@ update the uploaded code.
 
 ------------------------------------------------------------------------
 
-**Appendix A: Installation of Required Packages**
+# Appendix A: Installation of Required Packages
 
 The secure_python_code_manager.py script requires the following Python
 packages:
@@ -717,7 +698,7 @@ installing the packages.
 
 ------------------------------------------------------------------------
 
-**Appendix B: Contact Information**
+# Appendix B: Contact Information
 
 If you experience issues or have questions not covered in this
 documentation, please contact the Alpha Beta Network Research Team.

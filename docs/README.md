@@ -1,5 +1,7 @@
 **Secure Python Code Manager Script Documentation** 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14030325.svg)](https://doi.org/10.5281/zenodo.14030325)
+
 *Version: 1.5\
 Author: Alpha Beta Network Research Team\
 © 2024 αβ.net (alphabetanet.com) - Alpha Beta Network. All Rights

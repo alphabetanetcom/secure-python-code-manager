@@ -1,0 +1,13 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Izosimov
+  given-names: Pavel
+  affiliation: "Alpha Beta Network"
+  orcid: https://orcid.org/0009-0004-7126-6743
+title: "Secure Python Code Manager"
+abstract: "A command-line tool designed to help developers securely share and protect their Python code using the Alpha Beta Network cloud platform"
+version: latest
+date-released: 2024-11-03
+repository-code: "https://github.com/alphabetanetcom/secure-python-code-manager"
+license: "All Rights Reserved"

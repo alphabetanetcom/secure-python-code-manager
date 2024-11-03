@@ -21,33 +21,21 @@ for free.
 
 **Table of Contents**
 
--   Introduction
+- [Introduction](#introduction)
+- [Key Features](#key-features)
+- [How It Works](#how-it-works)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Uploading Code and Creating a License](#uploading-code-and-creating-a-license)
+  - [Updating Previously Uploaded Code](#updating-previously-uploaded-code)
+  - [Retrieving License Information](#retrieving-license-information)
+  - [Retrieving Service Usage Information](#retrieving-service-usage-information)
+- [Application Areas](#application-areas)
+- [Security and Best Practices](#security-and-best-practices)
+- [Contact Information](#contact-information)
+- [License](#license)
 
--   Key Features
-
--   How It Works
-
--   Installation
-
--   Usage
-
-    -   Uploading Code and Creating a License
-
-    -   Updating Previously Uploaded Code
-
-    -   Retrieving License Information
-
-    -   Retrieving Service Usage Information
-
--   Application Areas
-
--   Security and Best Practices
-
--   Contact Information
-
--   License
-
-**Introduction**
+# Introduction
 
 The **Secure Python Code Manager** is an innovative solution for
 developers looking to **share Python code securely**, protect
@@ -61,7 +49,7 @@ colleagues, or contributing to open-source projects, this tool ensures
 your intellectual property remains secure through advanced **code
 obfuscation in Python** and flexible licensing options.
 
-**Key Features**
+# Key Features
 
 -   **Secure Code Sharing**: Encrypt and protect your Python scripts to
     prevent unauthorized access or modification.
@@ -88,7 +76,7 @@ obfuscation in Python** and flexible licensing options.
 -   **Easy Integration**: Implement the entire process in just one step
     using our command-line tool.
 
-**How It Works**
+# How It Works
 
 1.  **Upload Your Code**: Use the command-line tool to upload your
     Python source code to the Alpha Beta Network cloud platform. Specify
@@ -119,7 +107,7 @@ platform
 
 http://obfuscator.alphabetanet.com/
 
-**Installation**
+# Installation
 
 Before using the **Secure Python Code Manager**, ensure that you
 have **Python 3** installed on your system.
@@ -153,12 +141,12 @@ cd secure-python-code-manager
 Alternatively, download the secure_python_code_manager.py script
 directly to your local machine.
 
-**Usage**
+# Usage
 
 The **Secure Python Code Manager** provides the following main
 functionalities:
 
-**Uploading Code and Creating a License**
+# Uploading Code and Creating a License
 
 Upload your Python script to the cloud and create a new license for it.
 
@@ -184,7 +172,7 @@ python secure_python_code_manager.py --upload -f my_script.py
 Upon successful upload, the script will provide a license key and save
 the protected code loader.
 
-**Updating Previously Uploaded Code**
+# Updating Previously Uploaded Code
 
 Update a previously uploaded script associated with a specific license.
 
@@ -210,7 +198,7 @@ python secure_python_code_manager.py --update -f /path/to/your_script.py -l LICE
 
 python secure_python_code_manager.py --update -f my_script.py -l 1234567890
 ```
-**Retrieving License Information**
+# Retrieving License Information
 
 Retrieve detailed information about your licenses, including status and
 usage data.
@@ -250,7 +238,7 @@ Extend the expiration date:
 
 python secure_python_code_manager.py --license-info -l 1234567890 --extend
 ```
-**Retrieving Service Usage Information**
+# Retrieving Service Usage Information
 
 Retrieve information about your service usage, including uploaded
 scripts and associated licenses.
@@ -277,7 +265,7 @@ python secure_python_code_manager.py --service-usage
 For a comprehensive guide on all functionalities, options, examples, and
 troubleshooting, please refer to the [Detailed Documentation](docs/README.md).
 
-**Application Areas**
+# Application Areas
 
 The **Secure Python Code Manager** can be effectively applied in the
 following areas:
@@ -297,7 +285,7 @@ following areas:
     code to prevent unauthorized usage or copying, preserving
     your **intellectual property**.
 
-**Security and Best Practices**
+# Security and Best Practices
 
 By implementing **Python secure code transfer** protocols, the **Alpha
 Beta Network** strives to keep code better protected during
@@ -309,7 +297,7 @@ Code Manager** represents an effort to empower developers to share their
 code with increased confidence, significantly enhancing security with
 new solutions that we implement.
 
-**Contact Information**
+# Contact Information
 
 If you experience issues or have questions not covered in this
 documentation, please contact the **Alpha Beta Network Research Team**.
@@ -321,7 +309,7 @@ documentation, please contact the **Alpha Beta Network Research Team**.
 Stay connected to receive updates, provide feedback, and get early
 access to extended functionality.
 
-**License**
+# License
 
 © 2024 αβ.net (alphabetanet.com) - Alpha Beta Network. All Rights
 Reserved.

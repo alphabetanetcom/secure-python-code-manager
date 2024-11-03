@@ -9,10 +9,7 @@ authors:
     family-names: Izosimov
     affiliation: Alpha Beta Network
     orcid: 'https://orcid.org/0009-0004-7126-6743'
-identifiers:
-  - type: doi
-    value: 10.5281/ZENODO.14029910
-    description: This is the DOI for the first release of the software.
+    website: 'https://alphabetanet.com'
 repository-code: >-
   https://github.com/alphabetanetcom/secure-python-code-manager
 url: 'https://alphabetanet.com/'

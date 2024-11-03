@@ -1,43 +1,9 @@
-cff-version: 1.2.0
-title: Secure Python Code Manager
-message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
-type: software
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
 authors:
-  - given-names: Pavel
-    family-names: Izosimov
-    affiliation: Alpha Beta Network
-    orcid: 'https://orcid.org/0009-0004-7126-6743'
-identifiers:
-  - type: doi
-    value: 10.5281/ZENODO.14029910
-    description: This is the DOI for the first release of the software.
-repository-code: >-
-  https://github.com/alphabetanetcom/secure-python-code-manager
-url: 'https://alphabetanet.com/'
-repository: >-
-  https://gitlab.com/alphabetanetcom/secure-python-code-manager
-repository-artifact: >-
-  https://github.com/alphabetanetcom/secure-python-code-manager/releases
-abstract: >-
-  A command-line tool designed to help developers securely
-  share and protect their Python code using the Alpha Beta
-  Network cloud platform
-keywords:
-  - secure code sharing
-  - source code protection
-  - python code encryption
-  - code obfuscation
-  - python security
-  - license management
-  - cloud platform
-  - code protection
-  - secure file transfer
-  - python development
-  - intellectual property protection
-  - software licensing
-  - code security
-  - python obfuscator
-  - secure distribution
-license-url: 'https://github.com/alphabetanetcom/secure-python-code-manager/blob/main/LICENSE.md'
+- family-names: Pavel
+  given-names: Izosimov
+orcid: 'https://orcid.org/0009-0004-7126-6743'
+title: Secure Python Code Manager
+version: v1.5-beta.2
+date-released: 2024-11-03

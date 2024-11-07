@@ -76,6 +76,10 @@ obfuscation in Python** and flexible licensing options.
 -   **Easy Integration**: Implement the entire process in just one step
     using our command-line tool.
 
+-   **Cross platform compatibility**: The protected Python scripts maintain
+    their cross-platform functionality and can be executed on any operating
+    system (Windows, MacOS, Linux/Unix and others) where Python 3.5+ is installed.
+
 # How It Works
 
 1.  **Upload Your Code**: Use the command-line tool to upload your
@@ -284,6 +288,13 @@ following areas:
 -   **Intellectual Property Protection**: Maintain control over your
     code to prevent unauthorized usage or copying, preserving
     your **intellectual property**.
+
+-   **Server Infrastructure Management**: Securely deploy and run **protected
+    Python scripts** on rented servers (both virtual and physical), ensuring
+    code confidentiality from both datacenter providers and end clients.
+    This enables safe automation and configuration of client servers while
+    protecting your proprietary code and implementation details.
+   
 
 # Security and Best Practices
 

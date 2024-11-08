@@ -1,0 +1,16 @@
+[origin]
+type = git
+url = https://github.com/alphabetanetcom/secure-python-code-manager
+
+[visit]
+method = git
+branch = main
+
+[save]
+include = 
+    *.py
+    *.md
+    LICENSE
+    requirements.txt
+    setup.py
+    .gitignore

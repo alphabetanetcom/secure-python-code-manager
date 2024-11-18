@@ -78,7 +78,7 @@ obfuscation in Python** and flexible licensing options.
 
 -   **Cross platform compatibility**: The protected Python scripts maintain
     their cross-platform functionality and can be executed on any operating
-    system (Windows, MacOS, Linux/Unix and others) where Python 3.5+ is installed.
+    system (Windows, MacOS, Linux/Unix and others) where Python 3.6+ is installed.
 
 # How It Works
 

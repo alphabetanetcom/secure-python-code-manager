@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14030325.svg)](https://doi.org/10.5281/zenodo.14030325)
 [![License](https://img.shields.io/badge/license-Custom-blue.svg)](LICENSE.md)
-[![Python Version](https://img.shields.io/badge/python-3.5%2B-blue)](https://www.python.org/downloads/)
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)](https://www.python.org/downloads/)
 
 *Version: 1.5\
 Author: Alpha Beta Network Research Team\

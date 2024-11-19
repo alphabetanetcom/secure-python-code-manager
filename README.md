@@ -308,6 +308,11 @@ Code Manager** represents an effort to empower developers to share their
 code with increased confidence, significantly enhancing security with
 new solutions that we implement.
 
+The [Local Python Code Protector Script](https://github.com/alphabetanetcom/local-python-code-protector) can also be effectively used to further
+protect licensed source code files created by the Alpha Beta Network cloud 
+platform (more advanced and flexible source code protection solutions such 
+as [Python Obfuscator Online](https://obfuscator.αβ.net/) and Secure Python Code Manager Script).
+
 # Contact Information
 
 If you experience issues or have questions not covered in this

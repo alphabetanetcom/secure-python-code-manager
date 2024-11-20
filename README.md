@@ -3,6 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14030325.svg)](https://doi.org/10.5281/zenodo.14030325)
 [![License](https://img.shields.io/badge/license-Custom-blue.svg)](LICENSE.md)
 [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)](https://www.python.org/downloads/)
+[![Cross-Platform](https://img.shields.io/badge/cross--platform-yes-brightgreen.svg)](#key-features)
 [![Code Protection](https://img.shields.io/badge/code-protection-green.svg)](README.md#key-features)
 [![Secure Sharing](https://img.shields.io/badge/secure-sharing-green.svg)](README.md#key-features)
 [![Encryption](https://img.shields.io/badge/encryption-enabled-brightgreen.svg)](README.md#key-features)

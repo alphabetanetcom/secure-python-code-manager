@@ -18,9 +18,12 @@ repository: >-
 repository-artifact: >-
   https://github.com/alphabetanetcom/secure-python-code-manager/releases
 abstract: >-
-  A command-line tool designed to help developers securely
-  share and protect their Python code using the Alpha Beta
-  Network cloud platform
+  Secure Python Code Manager is a command-line tool designed
+  to help developers securely share and protect their Python 
+  code using the Alpha Beta Network cloud platform. It offers
+  advanced Python code encryption, flexible licensing solutions,
+  and multi-level source code protection through dynamic code
+  obfuscation.
 keywords:
   - secure code sharing
   - source code protection

@@ -40,6 +40,6 @@ keywords:
   - code security
   - python obfuscator
   - secure distribution
-version: v1.5-beta.3
+version: v1.5.1-beta.3
 date-released: '2024-11-03'
 license-url: 'https://github.com/alphabetanetcom/secure-python-code-manager/blob/main/LICENSE.md'
